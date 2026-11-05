@@ -184,7 +184,7 @@ ${JSON.stringify(contextPayload, null, 2)}
 Write an executive three-sentence summary answering: Which region changed most from Q2 to Q3, and why? Use ONLY the numbers above.`;
 
     const timeoutPromise = new Promise((_, reject) =>
-      setTimeout(() => reject(new Error('AI generation timed out (5s limit)')), 5000)
+      setTimeout(() => reject(new Error('AI generation timed out (15s limit)')), 15000)
     );
 
     const aiPromise = ai.models.generateContent({
