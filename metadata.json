@@ -1,0 +1,6 @@
+{
+  "name": "OmniSales Regional Analytics",
+  "description": "Upload sales order CSVs to visualize quarterly revenue by region and generate precise AI executive summaries on Q2 to Q3 changes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
