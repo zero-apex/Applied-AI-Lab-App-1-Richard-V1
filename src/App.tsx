@@ -156,9 +156,9 @@ export default function App() {
   const westWasCleaned = Boolean(cleaningReport?.mergedRegions?.['West']);
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-100 font-sans antialiased">
+    <div className="min-h-screen bg-[#4169e1] text-slate-900 dark:text-slate-100 font-sans antialiased">
       {/* Top Navigation Bar */}
-      <header className="sticky top-0 z-40 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+      <header className="sticky top-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-b border-blue-300/40 dark:border-blue-900/40 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-indigo-400 flex items-center justify-center text-white shadow-md shadow-indigo-500/20">
@@ -457,7 +457,7 @@ export default function App() {
       )}
 
       {/* Footer */}
-      <footer className="mt-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 py-6 text-center text-xs text-slate-400">
+      <footer className="mt-16 border-t border-blue-300/40 dark:border-blue-900/50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md py-6 text-center text-xs text-slate-600 dark:text-slate-400">
         <p>OmniSales Regional Analytics • Automated text sanitization for human error & mathematical grounding</p>
       </footer>
     </div>
